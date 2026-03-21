@@ -1,7 +1,7 @@
 function App() {
   return (
     <main>
-      <h1>LIR System</h1>
+      <h1>Home</h1>
     </main>
   )
 }
