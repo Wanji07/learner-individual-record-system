@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
-import Login from './pages/Login'
+import LoginForm from './pages/LoginForm'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Route path="/" element={<Login />} />
       </Route>
       */}
-      <Route path="/" element={<Login />} />
+      <Route path="/" element={<LoginForm />} />
     </Routes>
   )
 }
