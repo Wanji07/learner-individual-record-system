@@ -6,6 +6,7 @@
       "@/*": ["./src/*"]
     },
     "target": "ES2023",
+    "ignoreDeprecations": "6.0",
     "useDefineForClassFields": true,
     "lib": ["ES2023", "DOM", "DOM.Iterable"],
     "module": "ESNext",
